@@ -1,0 +1,26 @@
+Transform the supplied reference image into a highly detailed, photorealistic Circuit Relic Style PCB artwork.
+
+Preserve the original subject's recognizable silhouette, pose, proportions, direction, visual hierarchy and overall composition.
+
+Reconstruct the subject entirely from authentic electronic structures: intricate PCB traces, conductive pathways, vias, solder points, solder pads, microchips, resistors, capacitors, metallic connectors and precision circuit routing.
+
+The subject must appear physically integrated into a real printed circuit board instead of being printed, pasted, embossed, or covered with a superficial circuit texture.
+
+Use mint-green and turquoise PCB material with deep teal and dark-blue solder-mask regions, silver metallic solder points, subtle gold-plated hardware and restrained red conductive accents.
+
+Preserve and electronically reinterpret the one to three most recognizable visual elements from the reference image:
+[SUBJECT_DESCRIPTION]
+[POSE_DESCRIPTION]
+[ICONIC_ELEMENTS]
+
+If an important weapon, central axis or red object is present, preserve its recognizable shape and integrate it into the PCB. Use restrained deep-red conductive accents for the selected focal structure, respecting the user's color instructions.
+
+
+By default, place the composition inside one complete rectangular PCB with four gold-plated corner mounting holes and a pure black outer background. Preserve the reference image's portrait or landscape orientation. User-specified board shape, background, palette, aspect ratio and viewpoint override these defaults. For transparent output, remove only the outer background and preserve the complete foreground board.
+
+Use top-down or composition-preserving product photography, minimal perspective distortion, authentic manufacturing details, dense micro circuitry, realistic solder reflections, precision industrial engineering and extremely sharp macro detail.
+
+The final result must look like a strange but physically plausible custom-manufactured circuit board whose routing naturally forms the supplied reference image.
+
+No text unless explicitly requested.
+Treat physical plausibility as a visual art direction, not a claim of electrically functional or fabrication-ready circuit design.

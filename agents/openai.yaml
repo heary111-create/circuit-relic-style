@@ -1,0 +1,4 @@
+interface:
+  display_name: "Circuit Relic Style"
+  short_description: "保留参考图的轮廓与构图，用 PCB 走线、焊点和电子元件重构材质"
+  default_prompt: "使用 $circuit-relic-style 将我提供的参考图转换为电路遗物风格，保留主体姿态与构图。"

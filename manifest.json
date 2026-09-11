@@ -1,0 +1,52 @@
+{
+  "name": "circuit-relic-style",
+  "display_name": "Circuit Relic Style",
+  "version": "1.1.1",
+  "type": "image-style-transfer-skill",
+  "language": [
+    "zh-CN",
+    "en"
+  ],
+  "entrypoint": "SKILL.md",
+  "description": "Preserve the reference image's composition and silhouette while rebuilding it as a physically plausible, photorealistic PCB circuit-board relic.",
+  "capabilities": [
+    "reference-image-analysis",
+    "image-style-transfer",
+    "pcb-material-reconstruction",
+    "composition-preservation",
+    "iconic-object-preservation",
+    "transparent-background-output"
+  ],
+  "default_style_strength": 0.85,
+  "tags": [
+    "pcb",
+    "circuit-board",
+    "style-transfer",
+    "industrial-art",
+    "electronic-relic",
+    "image-generation"
+  ],
+  "files": {
+    "skill": "SKILL.md",
+    "style_spec": "STYLE_SPEC.md",
+    "examples": "examples.md",
+    "master_prompt": "prompts/master_prompt.txt",
+    "negative_prompt": "prompts/negative_prompt.txt",
+    "analysis_template": "templates/reference_analysis.md"
+  },
+  "security": {
+    "requires_api_key": false,
+    "requires_credentials": false,
+    "secret_policy": "SECURITY.md",
+    "secret_scan": "scripts/scan_secrets.py",
+    "scope": "The skill itself needs no credentials; host image providers may require authentication."
+  },
+  "license": "MIT",
+  "metadata_scope": "Project-specific descriptive metadata; not a universal host or plugin manifest.",
+  "default_style_strength_note": "Visual guidance only; not an executable model parameter.",
+  "requirements": {
+    "prompt_use": "A text-capable assistant",
+    "image_output": "A host with image generation/editing; reference editing requires image input support",
+    "maintenance": "Python 3.10+ (standard library only)"
+  }
+}

@@ -1,0 +1,49 @@
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+credentials.json
+credentials*.json
+secrets.json
+secrets*.json
+*.kdbx
+.netrc
+.npmrc
+.pypirc
+
+# Local / private config
+.local/
+.private/
+secrets/
+credentials/
+auth/
+tokens/
+*.token
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build / temporary
+dist/
+build/
+*.tmp
+*.log
